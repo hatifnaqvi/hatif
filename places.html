@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+.topnav a {
+    float: center;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="topnav">
+  <a href="people.html"><font face="Saros-Regular" size=3 color=black>people</font></a></li>
+  <a href="places.html"><font face="Saros-Regular" size=3 color=black>places</font></a></li>
+  <a href="things.html"><font face="Saros-Regular" size=3 color=black>things</font></a></li>
+  <a href="about.html"><font face="Saros-Regular" size=3 color=black>about</font></a></li>
+</div>
+
+<div class="row"> 
+  <div class="column">
+    <img src="albertaa-2.JPG">
+    <img src="badshahim-3088.JPG">
+    <img src="jap-09409.JPG">
+  </div>
+  <div class="column">
+    <img src="jap-00441.JPG">
+    <img src="alberta-4531.JPG">
+    <img src="museum.JPG">
+  </div> 
+  <div class="column">
+    <img src="pak-2842.JPG">
+    <img src="jap-01382.JPG">
+    <img src="waterton-5019.JPG">
+  </div>
+</div>
+</body>
+</html>
