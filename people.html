@@ -3,15 +3,68 @@
 <head>
 
 <style>
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+.topnav a {
+    float: center;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 </style>
 </head>
 
 <body>
+  
+<div class="topnav">
+  <a href="people.html"><font face="Saros-Regular" size=3 color=black>people</font></a></li>
+  <a href="places.html"><font face="Saros-Regular" size=3 color=black>places</font></a></li>
+  <a href="things.html"><font face="Saros-Regular" size=3 color=black>things</font></a></li>
+  <a href="about.html"><font face="Saros-Regular" size=3 color=black>about</font></a></li>
+</div>
+  
 <div class="row"> 
   <div class="column">
     <img src="juanita-4094.JPG">
-    <img src="mahira-4520.JPG">
+    <img src="daria (10 of 6).JPG">
     <img src="mahira-4408.JPG">
   </div>
   <div class="column">
@@ -20,13 +73,9 @@
     <img src="zaineb-4937.JPG">
   </div> 
   <div class="column">
-    <img src="wedding.jpg">
-    <img src="rocks.jpg">
-    <img src="falls2.jpg">
-    <img src="paris.jpg">
-    <img src="nature.jpg">
-    <img src="mist.jpg">
-    <img src="paris.jpg">
+    <img src="IMG_0874.JPG">
+    <img src="altmish-.JPG">
+    <img src="mahira-4520.JPG">
   </div>
 </div>
 </body>
