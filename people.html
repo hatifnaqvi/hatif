@@ -3,25 +3,32 @@
 
 <style>
   
-.topnav {
-  overflow: hidden;
-  background-color: #FFFFFF;
-  list-style:none;
-  width: 750px;
-  margin: 50px auto;
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
-.topnav a {
-    float: center;
-    color: #000000;
-    text-align: center;
-    padding: auto auto;
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
     text-decoration: none;
-    margin: 25px
+    font-size: 25px;
+    color: #818181;
+    display: block;
 }
- 
- .topnav li{
-   display:inline;
-   display:inline-block;
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
 }
   
 body {
@@ -71,7 +78,7 @@ body {
 
 <body>
   
-<div class="topnav">
+<div class="sidenav">
   <li><a href="people.html"><font face="Saros-Regular" size=5 color=black>people</font></a></li>
   <li><a href="places.html"><font face="Saros-Regular" size=5 color=black>places</font></a></li>
   <li><a href="things.html"><font face="Saros-Regular" size=5 color=black>things</font></a></li>
